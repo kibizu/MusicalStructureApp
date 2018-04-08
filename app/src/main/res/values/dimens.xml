@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="margin4">4dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="dimension36">36dp</dimen>
+    <dimen name="dimension44">44dp</dimen>
+    <dimen name="dimension500">500dp</dimen>
+    <dimen name="dimension407">407dp</dimen>
+    <dimen name="textsize14">18sp</dimen>
+    <dimen name="under_text_size">12sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="list_item_height">44dp</dimen>
+</resources>

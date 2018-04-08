@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        tools:showIn="@layout/activity_main"
+        >
+
+        <LinearLayout
+            android:id="@+id/local_tracks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_library_music_white_24dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size"
+                    android:text="@string/local_tracks"
+
+                    />
+
+                <TextView
+                    android:id="@+id/n_local_tracks"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/localtracks_number"
+                    android:textSize="@dimen/under_text_size"
+                    android:textColor="@color/under_text_color"
+                    android:gravity="top"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/favorite_tracks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_white_24dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size"
+                    android:text="@string/favorite"
+
+                    />
+
+                <TextView
+                    android:id="@+id/n_favorite_tracks"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/favoritetracks_number"
+                    android:textColor="@color/under_text_color"
+                    android:textSize="@dimen/under_text_size"
+                    android:gravity="top"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

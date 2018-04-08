@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="my_tracks">My tracks</string>
+    <string name="local_tracks">Local tracks</string>
+    <string name="favorite">Favorite</string>
+    <string name="playlist">Playlist</string>
+    <string name="recent">Recent</string>
+    <string name="tracks">tracks</string>
+    <string name="unkown_artist">Unknown artist</string>
+    <string name="category_acoustic">Acoustic</string>
+    <string name="category_cinematic">Cinematic</string>
+    <string name="category_electronica">Electronica</string>
+    <string name="category_funky">Funky</string>
+    <string name="category_other">Other</string>
+    <string name="favoritetracks_number">10 Tracks</string>
+    <string name="localtracks_number">38 Tracks</string>
+    <string name="playlist_number">2 Playlist</string>
+    <string name="recenttracks_number">6 Tracks</string>
+    <string name="morning_playlist">Morning</string>
+    <string name="evening_playlist">Evening</string>
+    <string name="morning_numbertracks">6 Tracks</string>
+    <string name="evening_numbertracks">8 Tracks</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="my_tracks">I miei brani</string>
+    <string name="local_tracks">Brani locali</string>
+    <string name="favorite">Preferiti</string>
+    <string name="playlist">Playlist</string>
+    <string name="recent">Recenti</string>
+    <string name="tracks">brani</string>
+    <string name="unkown_artist">Artista sconosciuto</string>
+    <string name="category_acoustic">Acoustic</string>
+    <string name="category_cinematic">Cinematic</string>
+    <string name="category_electronica">Electronica</string>
+    <string name="category_funky">Funky</string>
+    <string name="category_other">Other</string>
+    <string name="favoritetracks_number">10 Brani</string>
+    <string name="localtracks_number">38 Brani</string>
+    <string name="playlist_number">2 Playlist</string>
+    <string name="recenttracks_number">6 Brani</string>
+    <string name="morning_playlist">Giorno</string>
+    <string name="evening_playlist">Sera</string>
+    <string name="morning_numbertracks">6 Brani</string>
+    <string name="evening_numbertracks">8 Brani</string>
+</resources>

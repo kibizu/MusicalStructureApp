@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tan_background"
+        tools:context=".MainActivity"
+        >
+
+        <include android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"/>
+
+        <LinearLayout
+            android:id="@+id/morning_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension44"
+            android:orientation="horizontal"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/dimension36"
+                android:layout_height="@dimen/dimension36"
+                android:layout_marginLeft="@dimen/margin16"
+                android:layout_marginTop="@dimen/margin4"
+                android:src="@drawable/ic_queue_music_white_24dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/margin16">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/text_color"
+                    android:text="@string/morning_playlist"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/under_text_color"
+                    android:text="@string/morning_numbertracks"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/evening_playlist"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension44"
+            android:orientation="horizontal"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/dimension36"
+                android:layout_height="@dimen/dimension36"
+                android:layout_marginLeft="@dimen/margin16"
+                android:layout_marginTop="@dimen/margin4"
+                android:src="@drawable/ic_queue_music_white_24dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/margin16">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/text_color"
+                    android:text="@string/evening_playlist"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/under_text_color"
+                    android:text="@string/evening_numbertracks"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
